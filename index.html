@@ -1,0 +1,219 @@
+  <!DOCTYPE html>
+    <html lang="en">
+      <head>
+           <!----- Meta Element ----->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <script src="script.js"></script>
+        
+            <!----- Bangla Font Load ----->
+        <link rel="stylesheet" href="https://fonts.maateen.me/adorsho-lipi/font.css">
+        <link  rel="stylesheet" href="https://fonts.maateen.me/apona-lohit/font.css" >
+        <link rel="stylesheet" href="https://fonts.maateen.me/solaiman-lipi/font.css">
+
+          <!----- CSS file Link  ----->
+      <link rel="stylesheet" href="css/from_contral.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Aadhaar</title>
+      </head>
+      <body>
+        <div class="from_area">
+          <from_contral>
+            <form action="">
+              <!-- Name -->
+              <label for="bng_name">বাংলায় নাম লিখুন* :</label>
+              <input type="text" placeholder="Enter Name" id="bng_name">
+              <label for="eng_name">English Name* :</label>
+              <input type="text" placeholder="Enter Name" id="eng_name">
+              <!-- S/O , D/O , W/O Area -->
+              <label for="ger">Enter Father/Husband Name* :</label>
+              <select>
+                <option value="1">S/O</option>
+                <option value="2">D/O</option>
+                <option value="3">W/O</option>
+              </select>
+              <input type="text" placeholder="Guardian Name Bangla" value="এস/ও: " id="bng_ger_name">
+              <input type="text" placeholder="Guardian Name" id="guardian_name" value="S/O: ">
+              <!-- Date Of Birth -->
+              <label for="dob">Date Of Birth* :</label>
+              <input type="date" id="dob">
+              <!-- Genarate Aadhaar -->
+              <input type="submit" value="Genarate Aadhaar" id="genarate_aadhaar" onclick="document.querySelector('.enrollment_number').innerHTML='hello">
+            </form>
+          </from_contral>
+        </div>
+        <div class="a4_page">
+          <div id="full_area" class="full_area">
+            <!----- 1st Area ----->
+            <div id="area1">
+           <!---- header Area -->
+           <img src="img/1st_header_area.png" alt="">
+              <img src="img/orange_white_green.jpg" alt="">
+              
+              
+               <!----- Enrolment Id ----->
+           
+              <p class="enrollment">তালিকাভুক্তির আই ডি / Enrollment NO.: <span class="enrollment_number" >xxxx/xxxxx/xxxxx</span></p>
+              <br>
+              
+          <div class="flex">
+              <!-- Aadhaar  Issue Date-->
+             <div class="issue_date">
+               <p>332136452</p>
+               <p>07/02/2016</p>
+             </div>
+                  
+        <pre>
+          To
+          <p class="bng_name" id="ht">আপনার নাম</p>
+          <p class="eng_name">Your Name </p>
+          S/O: RAFIKUL SK
+          CHANDATALA
+          Dangapara
+          Dangapara
+          Murshidabad Jiaganj
+          Murshidabad
+          West Bengal <p class="pin">7XXXXX</p>
+          <p class="mobile">XXXXXXXXXX</p>
+          <img src="img/post_scan.png" alt="">
+        </pre>
+          
+          </div>
+          
+            <!----- Aadhaar Scanner Load ----->
+          <div class="scan">
+            <img src="img/scan.jpg" class="scanner" alt="Scanner">
+          </div>
+          <div>
+          <h5>আপনার <a href="">আধার </a>সংখ্যা / Your <a href="">Aadhaar </a> No.:</h5>
+          </div>
+            <h2>XXXX XXXX XXXX</h2>
+            <div>
+                        
+                <h3 class="iden"><p>আধার</p> — সাধারণ মানুষের অধিকার</h3>
+                <hr>
+                </div>
+        <!-- 1st PVC area -->
+              <div class="pvc_area" id="pvc1">
+                <div class="header">
+                  <img src="img/1st_futer_header~2.jpg" alt="">
+                </div>
+                <div class="container">
+                  <img src="img/" class="photo" alt="upload photo">
+      <pre class="adres">
+        <p class="bng_name">আপনার নাম</p>
+        <p class="eng_name">Your Name </p>
+        জন্মতারিখ/DOB: <p class="dob">xx/xx/1990</p>
+        পুরুষ/Male
+                  </pre>
+                </div>
+                <!-- scanm -->
+                <div class="scan_2_area">
+                  <img src="img/scan.jpg" class="scan2" alt="upload  scan">
+                </div>
+                <!-- 1st PVC footer Area -->
+                <div class="footer_2nd_pvc">
+                <div class="position">
+                  <h3 class="aadhaar_no cnter">
+                  <!-- Aadhaar No -->
+                  XXXX XXXX XXXX
+                  </h3>
+                  <h3 class="foter">
+                  <a href="">আধার </a>— সাধারণ মানুষের অধিকার </h3>
+                  </div>
+                </div>
+              </div>
+              
+         </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!----- 2nd Area ----->
+            
+           
+            
+            <div id="area2">
+              <header>
+                <img src="img/2nd_page_header~3.jpg" alt="">
+              </header>
+                    <div class="t">তথ্য</div>
+               <div class="center">
+                  <div>
+                      <ul>
+                        <li><a href="">আধার</a> পরিচয়ের প্রমাণ, নাগরিকত্বের প্রমাণ নয়</li>
+                        <li>পরিচয়ের প্রমান অনলাইন অথেন্টিকেশন দ্বারা লাভ করুন</li>
+                        <li>এটা এক ইলেকট্রনিক প্রক্রিয়ায় তৈরি পত্র</li>
+                      </ul>
+                  </div>
+                </div>
+            
+            
+            <div class="t">INFORMATION</div>
+            
+            <div class="center cnt">
+              <div>
+                <ul>
+              <li><a href="">Aadhaar </a>is a proof of identity, not of citizenship</li>
+              <li>To establish identity, authenticate online</li>
+              <li>This is electronically generated letter</li>
+            </ul>
+              </div>
+            </div>
+            
+            <br>
+            
+            <div class="cl center">
+            <div class="txt">
+              <ul>
+                <li><a href="">আধার </a>সারা দেশে মান্য ।</li>
+                <li><a href="">আধার </a>ভবিষ্যতে সরকারি ও বেসরকারি পরিষেবা <br>প্রাপ্তির সহায়ক হবে ।</li>
+                <li><a href="">Aadhaar </a>is a valid thoughout the country .</li>
+                <li><a href="">Aadhaar </a>will be helpful in availing Government <br> and Non-Government services in future .</li>
+              </ul>
+            </div>
+              </div>
+              <!----- PVC 2nd Area ----->
+              <div class="pvc_area">
+                <div class="pvc_header">
+                 <img src="img/logo.png" id="adhar_logo">
+                 <img src="img/img_uidai.png" id="rdg_uidai">
+                </div> 
+                <div class="address">
+                  <!-- Bangla Address -->
+                 <p>
+                   ঠিকানা: <br>
+                   এস/ও: রাফিকুল সেখ, চণ্ডাতলা, ডাঙ্গাপাড়া, ডাঙ্গাপাড়া, মুর্শিদাবাদ, পশ্চিমবঙ্গ - <u>742302</u>  
+                 </p>
+                 <!-- English Address-->
+                 <p>
+                   Address: <br>
+                   S/O: RAFIKUL SK, CHANDATALA, Dangapara, Dangapara, Murshidabad, West Bengal - 742302
+                 </p>
+                </div>
+                
+                <!-- 2nd PVC footer Area -->
+                <div class="footer_2nd_pvc">
+                <div class="position">
+                  <h3 class="aadhaar_no">
+                  <!-- Aadhaar No -->
+                  XXXX XXXX XXXX
+                  </h3>
+                  <img src="img/helpline.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div> 
+        </div>
+      </body>
+    </htmls
